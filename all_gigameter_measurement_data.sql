@@ -1,0 +1,25 @@
+-- ==============================================================================
+-- Script Name:     all_gigameter_measurement_data.sql
+-- Table Created:   default.all_gigameter_measurement_data
+-- Schema:          default
+-- Pipeline Step:   3 of 3
+-- Pipeline Status: Placeholder — implementation pending
+--
+-- Purpose:
+--   Final consolidated measurement table combining GigaMeter app measurements
+--   (from all_gmeter_only_measurements.sql) and MLab network test measurements
+--   (from all_mlab_only_measurements.sql) into a single unified dataset.
+--   This is the primary measurement table referenced by all downstream scripts.
+--
+-- Dependencies:
+--   - default.all_gmeter_only_measurements (Pipeline Step 1)
+--   - default.all_mlab_only_measurements (Pipeline Step 2)
+--
+-- Run Notes:
+--   This script is currently a placeholder. The production implementation is
+--   a UNION ALL of the two upstream measurement tables. Complete this script
+--   before running any downstream scripts that reference
+--   default.all_gigameter_measurement_data.
+--
+-- Last Updated:    2025-10-31 / Luke Stringer
+-- ==============================================================================
